@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#323a45">
+
+
+    <title>MyGuru University</title>
+    <link rel="icon" sizes="192x192" href="images/icon-192.png">
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,600,700' rel='stylesheet' type='text/css'>
+
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+    <link href="css/theme.css" rel="stylesheet">
+    <link href="css/styles.css" rel="stylesheet">
+
+    <script>
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+        ga('create', 'UA-58555730-7', 'auto');
+        ga('send', 'pageview');
+    </script>
+
+</head>
+
+<body>
+    <nav class="navbar navbar-default">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">
+                    <img src="images/logo-dark.png">
+                </a>
+            </div>
+
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+
+                <ul class="nav navbar-nav navbar-right navbar-account">
+                    
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="content">
+
+
+        <section class="cover">
+            <div class="cover-image homepage"></div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12 text-center top30">
+                        <h1 class="title caps">LEARN SMARTER</h1>
+                    </div>
+                </div>
+                <div class="col-md-12 text-center top30">
+                    <h4 class="title top30 hidden-sm hidden-xs">Videos + on demand answers from the experts who have done it before.</h4>
+                </div>
+            </div>
+        </section>
+        <section class="dark">
+            <div class="container">
+                <div class="col-md-10 col-md-offset-1 top15">
+                    <div class="col-md-10 col-md-offset-1 text-center">
+                        <h5>MyGuru is no longer offering this service. If you have any questions please direct them to <a href="mailto:admin@myguru.com.au">admin@myguru.com.au</a>.</h5>
+                    </div>
+                    <div class="col-md-4 col-md-offset-6 pull-right">
+                        <h5>Thanks, the MyGuru Team</h5>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <div class="parallax">
+            <div class="background image2" data-stellar-ratio="0.5" data-stellar-vertical-offset="0"></div>
+            <div class="col-md-8 col-md-offset-2 floating-box">
+                
+                <div class="text-center">
+                    <h5>Still here... Want to know more about what MyGuru was?</h5>
+
+                    <div id="fb-root"></div><script>(function(d, s, id) {  var js, fjs = d.getElementsByTagName(s)[0];  if (d.getElementById(id)) return;  js = d.createElement(s); js.id = id;  js.src = "https://connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v2.3";  fjs.parentNode.insertBefore(js, fjs);}(document, 'script', 'facebook-jssdk'));</script><div class="fb-video" data-allowfullscreen="1" data-href="https://www.facebook.com/myguruaustralia/videos/947219282004163/"><div class="fb-xfbml-parse-ignore"><blockquote cite="https://www.facebook.com/myguruaustralia/videos/947219282004163/"><a href="https://www.facebook.com/myguruaustralia/videos/947219282004163/">MyGuru for University</a><p>Need extra cash or want better grades? Check out our new service for university students!</p>Posted by <a href="https://www.facebook.com/myguruaustralia">MyGuru</a> on Thursday, 22 October 2015</blockquote></div></div>
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="copyright">&#9400; Copyright 
+                        <script type="text/javascript">document.write(new Date().getFullYear());</script>
+                         MyGuru Pty Ltd. All Rights Reserved.</div>
+                    <div><a href="{% url 'terms' %}">Terms and Conditions</a>, <a href="{% url 'privacy' %}">Privacy Policy</a></div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/stellar.js/0.6.2/jquery.stellar.min.js"></script>
+    
+    <script type="text/javascript">
+        $.stellar({
+            horizontalScrolling: false,
+            positionProperty: 'transform'
+        })
+    </script>
+</body>
+</html>
