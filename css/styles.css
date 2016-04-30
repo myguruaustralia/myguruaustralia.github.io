@@ -74,6 +74,12 @@ h1.title.caps {
   padding: 30px; }
   .floating-box img {
     margin-top: 40px; }
+  
+  @media(max-width:768px){
+    .floating-box {
+      border-radius: 0;
+    }
+  }
 
 .parallax {
   min-height: 600px;
@@ -326,11 +332,11 @@ section.cover {
 
 section.dark {
   background-color: #fafafa;
-  padding: 50px 50px; }
+  padding: 15px 15px; }
 
 section.light {
   background-color: #ffffff;
-  padding: 50px 50px; }
+  padding: 15px 15px; }
 
 /* Profile pictures */
 img.profile-large {
